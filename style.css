@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+/*Base css*/
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+.alignright {
+	float: right;
+	margin-right: 15px;
+}
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+a:focus {outline: 0 solid }
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+}
+a:hover {text-decoration: none}
+
+/*Remove Chrome Input Firld's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover,input:-webkit-autofill:focus {
+	-webkit-box-shadow:0 0 0px 1000px white inset !important;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+img.header-logo {
+    width: 100px;
+}
+.section-padding{
+    padding-top: 50px;
+}
+
+.home-slider img{
+    width: 100%;
+}
+.heighlight-text{
+    position: relative;
+}
+.product-text{
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 900;
+    position: absolute;
+    left: -100px;
+    bottom: 200px;
+    opacity: .1;
+    transform: rotate(-90deg);
+}
